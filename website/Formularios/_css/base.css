@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/*Formatação dos parágrafos*/
+	p{
+		color: black;
+		text-align: justify;
+		size: 20pt;
+		text-indent: 50px;
+	}
+
+/*Formatação da página*/
+
+*{
+	margin: 0px;
+}
+
+/*Formatação de fundo*/
+
+	/*body#principal {
+		background: rgba(125,10,0,0.3);
+	}*/
+
+/*Formatação de menu*/
+
+	nav#menu ul{
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: 10px;
+		left: 200px;
+	}
+
+	nav#menu li{
+		display: inline-block;
+		background-color: silver;
+		padding: 10px;
+	}
+	nav#menu li:hover{
+		background-color: #604050;
+	}
+	nav#menu h1{
+		display: none;
+	}
+	nav#menu a{
+		color: #000000;
+		text-decoration: none;
+	}
+
+/*Formatação dos parágrafos*/
+	figure.foto_legendada{
+		border: 8px solid white;
+		box-shadow: 1px 1px 4px black;
+	}
+
+	figure.foto_legendada img {
+		width: 50%;
+		height: 50%;
+	}
+/*Formatação de tabela*/
+	table{
+		border-collapse: collapse;
+	}
+	th{
+		border: 1px solid #ccc;
+		padding: 9px;
+		background-color: silver;
+	}
+	td{
+		border: 1px solid #ccc;
+		padding: 10px;
+		text-align: center;
+		border-left:
+	}
+
+/*Formatação de formulário*/
+	input{
+		width: calc(100% - 20px);
+		padding: 10px;
+	}
+	textarea{
+		width: calc(100% - 20px);
+		padding: 10px;
+	}
+	.container{
+		width: 600px;
+		margin: 0 auto;
+	}
+	h4{
+		text-align: center;
+	}
+	.botao_enviar{
+		border: solid 1px #02b81a;
+		background-color: blue;
+		color: white;
+		text-decoration: none;
+		padding: 20px;
+		width: 40%;
+	}
+
+	/*Animação de figura*/
+	figure.animacao {
+		position: relative;
+		border: 9px solid silver;
+		box-shadow: 1px 1px 2px black;
+	}
+	figure.animacao img{
+		width: 20%;
+		height: 20%;
+	}
+	figure.animacao figcaption {
+		position: absolute;
+		top; 0px;
+		background-color: rgba(0,0,0,.3)
+	}

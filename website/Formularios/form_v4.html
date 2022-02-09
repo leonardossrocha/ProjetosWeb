@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<title>Formulario de contato</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="_css/formulario.css">
+		<!--<script>
+			function envia(){
+				var nome = document.getElementById("IDnome");
+
+				if (nome.value != ""){
+				 window.alert("Obrigado sr(a)" + nome.value + " os seus dados foram enviados com sucesso")
+				}
+			}
+		</script>-->
+
+	</head>
+	<body>
+		<main class="container">
+		<h4>Fale Conosco</h4>
+		<form method="post" action="">
+			<div>
+				<label>Nome</label>
+				<input type="text" id="IDnome" name="nome" placeholder="Nome aqui"/>
+			</div></br>
+			<div>
+				<label>Assunto</label>
+				<input type="text" size="40" id="assunto"/>
+			</div></br>
+			<div>
+			<div class="">
+				<label for="">e-mail</label>
+				<input type="text" placeholder="usuario@mail.com" name="email" />
+				<!--<input type="email" onblur="validacarEmail(form_total.email)" placeholder="usuario@mail.com" name="email" />-->
+			</div>
+				<label>Mensagem</label></br></br>
+				<textarea placeholder="Decreva o problema" id="mensagem" rows="5" cols=30></textarea>
+			</div>
+			<div>
+				<input type="submit" name="submit" value="Enviar" id="enviar" class="botao_enviar" onclick="envia();">
+			</div>
+		</form>
+		</main>
+	<script type="text/javascript" src="_javascript/functions.js"></script>
+	</body>
+</html>

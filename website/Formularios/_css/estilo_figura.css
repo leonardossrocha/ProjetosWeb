@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*Formatação das imagens*/
+	figure.legend_pic{
+		border: 8px solid white;
+		box-shadow: 1px 1px 4px black;
+		position: relative;
+	}
+
+	figure.legend_pic img {
+		width: 100%;
+		height: 100%;
+	}
+
+	figure.legend_pic figcaption {
+		position: absolute;
+		top; 0px;
+		background-color: rgba(0,0,0,.3);
+		color: white;
+		opacity: 0;
+		width: 100%;
+		height: 100%;
+		transition: opacity 1s;
+	}
+
+	figur.legend_pic:hover figcaption{
+		opacity: 1;
+	}

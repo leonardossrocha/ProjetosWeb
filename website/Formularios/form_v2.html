@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <title>Deixe sua mensagem</title>
+  <meta charset="utf-8" />
+  <link href="_css/new.css" rel="stylesheet" media="all" />
+      <script src="valida.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+    <form name="meu_form">
+
+      <h1>Deixe sua mensagem</h1>
+
+      <input type="text" placeholder="Seu nome aqui" required="required" name="nome" />
+      <label for="nome">Nome</label>
+
+      <input type="tel" placeholder="(xx)xx-x-xxxx-xx" name="fone" />
+      <label for="fone">Fone</label>
+
+      <input type="email" onblur="validacarEmail(form_total.email)" placeholder="fulano@mail.com" name="email" />
+      <label for="email">Email</label>
+
+      <textarea placeholder="Deixe sua opnião"></textarea>
+
+      <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+    </form>
+    <div>
+  </body>
+</html>
